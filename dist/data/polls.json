@@ -936,5 +936,101 @@
       "R": 2,
       "Andre": 0
     }
+  },
+  "3903": {
+    "date": "2026-10-19",
+    "institute": "InFact",
+    "client": "InFact for Sande Avis",
+    "sample": 496,
+    "fieldwork": "13. oktober 2026",
+    "source": "https://www.pollofpolls.no/?cmd=Maling&gallupid=5728",
+    "values": {
+      "Ap": 13.7,
+      "H": 18.7,
+      "FrP": 39.7,
+      "SV": 5.7,
+      "Sp": 6.2,
+      "KrF": 2.5,
+      "V": 0.7,
+      "MDG": 4.0,
+      "R": 5.7,
+      "Andre": 3.1
+    },
+    "seats": {
+      "Ap": 5,
+      "H": 7,
+      "FrP": 15,
+      "SV": 2,
+      "Sp": 2,
+      "KrF": 1,
+      "V": 0,
+      "MDG": 1,
+      "R": 2,
+      "Andre": 0
+    }
+  },
+  "3312": {
+    "date": "2026-10-19",
+    "institute": "InFact",
+    "client": "InFact for Lierposten",
+    "sample": 390,
+    "fieldwork": "13. oktober 2026",
+    "source": "https://www.pollofpolls.no/?cmd=Maling&gallupid=5727",
+    "values": {
+      "Ap": 15.9,
+      "H": 41.6,
+      "FrP": 20.2,
+      "SV": 3.2,
+      "Sp": 6.4,
+      "KrF": 1.6,
+      "V": 3.7,
+      "MDG": 4.0,
+      "R": 2.9,
+      "Andre": 0.5
+    },
+    "seats": {
+      "Ap": 7,
+      "H": 17,
+      "FrP": 8,
+      "SV": 1,
+      "Sp": 3,
+      "KrF": 0,
+      "V": 2,
+      "MDG": 2,
+      "R": 1,
+      "Andre": 0
+    }
+  },
+  "3314": {
+    "date": "2026-10-19",
+    "institute": "InFact",
+    "client": "InFact for Eikerbladet",
+    "sample": 318,
+    "fieldwork": "13. oktober 2026",
+    "source": "https://www.pollofpolls.no/?cmd=Maling&gallupid=5726",
+    "values": {
+      "Ap": 10.7,
+      "H": 27.3,
+      "FrP": 32.6,
+      "SV": 4.5,
+      "Sp": 16.1,
+      "KrF": 2.5,
+      "V": 2.9,
+      "MDG": 0.0,
+      "R": 2.1,
+      "Andre": 1.2
+    },
+    "seats": {
+      "Ap": 4,
+      "H": 10,
+      "FrP": 12,
+      "SV": 2,
+      "Sp": 6,
+      "KrF": 1,
+      "V": 1,
+      "MDG": 0,
+      "R": 1,
+      "Andre": 0
+    }
   }
 }
