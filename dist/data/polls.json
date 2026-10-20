@@ -1032,5 +1032,37 @@
       "R": 1,
       "Andre": 0
     }
+  },
+  "3907": {
+    "date": "2026-10-20",
+    "institute": "Sentio",
+    "client": "Sentio for Fremskrittspartiet",
+    "sample": 500,
+    "fieldwork": "18.–25. september 2026",
+    "source": "https://www.pollofpolls.no/?cmd=Maling&gallupid=5729",
+    "values": {
+      "Ap": 11.9,
+      "H": 40.1,
+      "FrP": 21.3,
+      "SV": 5.5,
+      "Sp": 1.6,
+      "KrF": 6.9,
+      "V": 2.7,
+      "MDG": 2.7,
+      "R": 4.4,
+      "Andre": 3.0
+    },
+    "seats": {
+      "Ap": 5,
+      "H": 19,
+      "FrP": 10,
+      "SV": 3,
+      "Sp": 1,
+      "KrF": 3,
+      "V": 1,
+      "MDG": 1,
+      "R": 2,
+      "Andre": 0
+    }
   }
 }
