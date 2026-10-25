@@ -1064,5 +1064,37 @@
       "R": 2,
       "Andre": 0
     }
+  },
+  "4618": {
+    "date": "2026-10-24",
+    "institute": "InFact",
+    "client": "InFact for Hardanger Folkeblad",
+    "sample": 781,
+    "fieldwork": "13. oktober 2026",
+    "source": "https://www.pollofpolls.no/?cmd=Maling&gallupid=5731",
+    "values": {
+      "Ap": 27.8,
+      "H": 10.2,
+      "FrP": 11.8,
+      "SV": 1.8,
+      "Sp": 31.8,
+      "KrF": 0.8,
+      "V": 1.7,
+      "MDG": 2.0,
+      "R": 8.9,
+      "Andre": 3.2
+    },
+    "seats": {
+      "Ap": 10,
+      "H": 4,
+      "FrP": 4,
+      "SV": 0,
+      "Sp": 11,
+      "KrF": 0,
+      "V": 0,
+      "MDG": 1,
+      "R": 3,
+      "Andre": 0
+    }
   }
 }
