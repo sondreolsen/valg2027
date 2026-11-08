@@ -1126,3 +1126,8 @@ footer details {
   .cookie-consent-actions { display:grid; grid-template-columns:1fr 1fr; gap:8px }
   .cookie-consent button { width:100%; min-height:44px; padding:8px 10px }
 }
+
+.county-candidate-photo img.candidate-face-zoom-asta {
+  transform:scale(2);
+  object-position:60% 20%
+}
