@@ -25,7 +25,7 @@ const bergenCandidates=[{party:'Ap',label:'Arbeiderpartiet',acronym:'Ap',name:'L
 {party:'SV',label:'SV',acronym:'SV',name:'Mikkel Grüner',status:'Innstilt',source:'https://bergen.sv.no/lokalvalget-2027/'},
 {party:'V',label:'Venstre',acronym:'V',name:'Ingrid Nergaard Fjeldstad'},
 {party:'MDG',label:'MDG',acronym:'MDG',name:'Katrine Nødtvedt',status:'Valgt',image:'assets/candidates/katrine-nodtvedt.jpg'},
-{party:'R',label:'Rødt',acronym:'R',name:'Mailiss Solheim-Åkerblom',image:'assets/candidates/mailiss-solheim-akerblom.png'},
+{party:'R',label:'Rødt',acronym:'R',name:'Mailiss Solheim-Åkerblom',status:'Valgt',image:'assets/candidates/mailiss-solheim-akerblom.png'},
 {party:'BL',label:'Bergenslisten',acronym:'BL',name:'Toppkandidat ikke valgt ennå',status:'Ikke offentlig avklart'},
 {party:'PP',label:'Pensjonistpartiet',acronym:'PP',name:'Toppkandidat ikke valgt ennå',status:'Ikke offentlig avklart'}
 ];
