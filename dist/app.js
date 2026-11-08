@@ -17,22 +17,21 @@ const pct=n=>n.toLocaleString('nb-NO',{minimumFractionDigits:1,maximumFractionDi
 const date=s=>new Date(s+'T12:00:00').toLocaleDateString('nb-NO',{day:'numeric',month:'long',year:'numeric'});
 const logo=(p,party='')=>p.logo?`<img class="party-logo ${party==='H'?'party-h':''}" src="assets/logos/${p.logo}" alt="${esc(p.name)}">`:p.name==='Andre'?'<span class="local" aria-label="Andre">A</span>':'<span class="local" aria-label="Solrenningslista">SOL</span>';
 
-const bergenCandidates=[
- {party:'H',label:'Høyre',acronym:'H',name:'Chris Jørgen Knudsen Rødland',status:'Valgt byrådslederkandidat · nr. 1 i listeinnstillingen',image:'assets/candidates/chris-rodland.jpg',credit:'Foto: Andrew M. S. Buller',source:'https://hoyre.no/bergen/aktuelt/komiteens-innstilling-er-klar/'},
- {party:'Ap',label:'Arbeiderpartiet',acronym:'Ap',name:'Toppkandidat ikke valgt ennå'},
- {party:'FrP',label:'Frp',acronym:'FrP',name:'Toppkandidat ikke valgt ennå',status:'Nominasjon pågår',source:'https://www.frp.no/nyheter/lokalt/bergen-frps-valgliste-2027-2031'},
- {party:'SV',label:'SV',acronym:'SV',name:'Toppkandidat ikke valgt ennå',status:'Nominasjonsmøte planlagt i januar',source:'https://bergen.sv.no/lokalvalget-2027/'},
- {party:'MDG',label:'MDG',acronym:'MDG',name:'Katrine Nødtvedt',status:'Valgt',image:'assets/candidates/katrine-nodtvedt.jpg'},
- {party:'BL',label:'Bergenslisten',acronym:'BL',name:'Toppkandidat ikke valgt ennå',status:'Ikke offentlig avklart'},
- {party:'V',label:'Venstre',acronym:'V',name:'Ingrid Nergaard Fjeldstad'},
- {party:'R',label:'Rødt',acronym:'R',name:'Mailiss Solheim-Åkerblom',image:'assets/candidates/mailiss-solheim-akerblom.png'},
- {party:'Sp',label:'Senterpartiet',acronym:'Sp',name:'Toppkandidat ikke valgt ennå',status:'Ikke offentlig avklart'},
- {party:'KrF',label:'KrF',acronym:'KrF',name:'Per Erik Gåskjenn',status:'Valgt',image:'assets/candidates/per-erik-gaskjenn.jpg'},
- {party:'PP',label:'Pensjonistpartiet',acronym:'PP',name:'Toppkandidat ikke valgt ennå',status:'Ikke offentlig avklart'}
+const bergenCandidates=[{party:'Ap',label:'Arbeiderpartiet',acronym:'Ap',name:'Toppkandidat ikke valgt ennå'},
+{party:'H',label:'Høyre',acronym:'H',name:'Chris Jørgen Knudsen Rødland',status:'Valgt byrådslederkandidat · nr. 1 i listeinnstillingen',image:'assets/candidates/chris-rodland.jpg',credit:'Foto: Andrew M. S. Buller',source:'https://hoyre.no/bergen/aktuelt/komiteens-innstilling-er-klar/'},
+{party:'FrP',label:'Frp',acronym:'FrP',name:'Toppkandidat ikke valgt ennå',status:'Nominasjon pågår',source:'https://www.frp.no/nyheter/lokalt/bergen-frps-valgliste-2027-2031'},
+{party:'Sp',label:'Senterpartiet',acronym:'Sp',name:'Toppkandidat ikke valgt ennå',status:'Ikke offentlig avklart'},
+{party:'KrF',label:'KrF',acronym:'KrF',name:'Per Erik Gåskjenn',status:'Valgt',image:'assets/candidates/per-erik-gaskjenn.jpg'},
+{party:'SV',label:'SV',acronym:'SV',name:'Toppkandidat ikke valgt ennå',status:'Nominasjonsmøte planlagt i januar',source:'https://bergen.sv.no/lokalvalget-2027/'},
+{party:'V',label:'Venstre',acronym:'V',name:'Ingrid Nergaard Fjeldstad'},
+{party:'MDG',label:'MDG',acronym:'MDG',name:'Katrine Nødtvedt',status:'Valgt',image:'assets/candidates/katrine-nodtvedt.jpg'},
+{party:'R',label:'Rødt',acronym:'R',name:'Mailiss Solheim-Åkerblom',image:'assets/candidates/mailiss-solheim-akerblom.png'},
+{party:'BL',label:'Bergenslisten',acronym:'BL',name:'Toppkandidat ikke valgt ennå',status:'Ikke offentlig avklart'},
+{party:'PP',label:'Pensjonistpartiet',acronym:'PP',name:'Toppkandidat ikke valgt ennå',status:'Ikke offentlig avklart'}
 ];
 
 const priorityCandidateIds=['0301','4601','5001','1103','3201','4204','3301','3203','3205','3107','1108','5501','3907','3207','3105','3905','1508','4003','1804','3103','3222','3909','3118','4203','3209','1149','4626','1106','4001','3411'];
-const candidatePartyTemplates=[['Ap','Arbeiderpartiet','Ap'],['H','Høyre','H'],['FrP','Frp','FrP'],['SV','SV','SV'],['Sp','Senterpartiet','Sp'],['KrF','KrF','KrF'],['V','Venstre','V'],['MDG','MDG','MDG'],['R','Rødt','R']];
+const candidatePartyTemplates=[['Ap','Arbeiderpartiet','Ap'],['H','Høyre','H'],['FrP','Frp','FrP'],['Sp','Senterpartiet','Sp'],['KrF','KrF','KrF'],['SV','SV','SV'],['V','Venstre','V'],['MDG','MDG','MDG'],['R','Rødt','R']];
 const priorityCandidates=Object.fromEntries(priorityCandidateIds.map(id=>[id,candidatePartyTemplates.map(([party,label,acronym])=>({party,label,acronym,name:'Toppkandidat ikke lagt inn ennå'}))]));
 priorityCandidates['4601']=bergenCandidates;
 priorityCandidates['1108'][5]={party:'KrF',label:'KrF',acronym:'KrF',name:'Olav Eggebø Aanonsen',status:'Valgt',image:'assets/candidates/olav-eggebo-aanonsen.jpg'};
