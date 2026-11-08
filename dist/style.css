@@ -570,7 +570,7 @@ main {
 .candidate-card,.county-candidate {
   flex:0 0 174px;
   min-width:0;
-  height:170px;
+  height:190px;
   border:1px solid #e7edf1;
   background:#f8fafc;
   border-radius:10px;
@@ -613,8 +613,8 @@ main {
   white-space:nowrap
 }
 .candidate-photo-wrap,.county-candidate-photo {
-  height:88px;
-  width:88px;
+  height:106px;
+  width:106px;
   border-radius:50%;
   overflow:hidden;
   margin:5px auto;
@@ -631,8 +631,8 @@ main {
   transform:scale(1.35)
 }
 .candidate-placeholder,.county-candidate-placeholder {
-  height:88px;
-  width:88px;
+  height:106px;
+  width:106px;
   border-radius:50%;
   background:#e8eff4;
   display:grid;
