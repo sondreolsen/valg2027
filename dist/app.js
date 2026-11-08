@@ -22,7 +22,7 @@ const bergenCandidates=[{party:'Ap',label:'Arbeiderpartiet',acronym:'Ap',name:'L
 {party:'FrP',label:'Frp',acronym:'FrP',name:'Toppkandidat ikke valgt ennå',status:'Nominasjon pågår',source:'https://www.frp.no/nyheter/lokalt/bergen-frps-valgliste-2027-2031'},
 {party:'Sp',label:'Senterpartiet',acronym:'Sp',name:'Toppkandidat ikke valgt ennå',status:'Ikke offentlig avklart'},
 {party:'KrF',label:'KrF',acronym:'KrF',name:'Per Erik Gåskjenn',status:'Valgt',image:'assets/candidates/per-erik-gaskjenn.jpg'},
-{party:'SV',label:'SV',acronym:'SV',name:'Toppkandidat ikke valgt ennå',status:'Nominasjonsmøte planlagt i januar',source:'https://bergen.sv.no/lokalvalget-2027/'},
+{party:'SV',label:'SV',acronym:'SV',name:'Mikkel Grüner',status:'Innstilt',source:'https://bergen.sv.no/lokalvalget-2027/'},
 {party:'V',label:'Venstre',acronym:'V',name:'Ingrid Nergaard Fjeldstad'},
 {party:'MDG',label:'MDG',acronym:'MDG',name:'Katrine Nødtvedt',status:'Valgt',image:'assets/candidates/katrine-nodtvedt.jpg'},
 {party:'R',label:'Rødt',acronym:'R',name:'Mailiss Solheim-Åkerblom',image:'assets/candidates/mailiss-solheim-akerblom.png'},
