@@ -627,6 +627,9 @@ main {
   object-position:center 25%;
   display:block
 }
+.county-candidate-photo img.candidate-face-zoom {
+  transform:scale(1.35)
+}
 .candidate-placeholder,.county-candidate-placeholder {
   height:64px;
   width:64px;
