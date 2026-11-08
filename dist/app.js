@@ -18,7 +18,7 @@ const date=s=>new Date(s+'T12:00:00').toLocaleDateString('nb-NO',{day:'numeric',
 const logo=(p,party='')=>p.logo?`<img class="party-logo ${party==='H'?'party-h':''}" src="assets/logos/${p.logo}" alt="${esc(p.name)}">`:p.name==='Andre'?'<span class="local" aria-label="Andre">A</span>':'<span class="local" aria-label="Solrenningslista">SOL</span>';
 
 const bergenCandidates=[{party:'Ap',label:'Arbeiderpartiet',acronym:'Ap',name:'Toppkandidat ikke valgt ennå'},
-{party:'H',label:'Høyre',acronym:'H',name:'Chris Jørgen Knudsen Rødland',status:'Valgt byrådslederkandidat · nr. 1 i listeinnstillingen',image:'assets/candidates/chris-rodland.jpg',credit:'Foto: Andrew M. S. Buller',source:'https://hoyre.no/bergen/aktuelt/komiteens-innstilling-er-klar/'},
+{party:'H',label:'Høyre',acronym:'H',name:'Chris Jørgen Knudsen Rødland',status:'Valgt',image:'assets/candidates/chris-rodland.jpg',credit:'Foto: Andrew M. S. Buller',source:'https://hoyre.no/bergen/aktuelt/komiteens-innstilling-er-klar/'},
 {party:'FrP',label:'Frp',acronym:'FrP',name:'Toppkandidat ikke valgt ennå',status:'Nominasjon pågår',source:'https://www.frp.no/nyheter/lokalt/bergen-frps-valgliste-2027-2031'},
 {party:'Sp',label:'Senterpartiet',acronym:'Sp',name:'Toppkandidat ikke valgt ennå',status:'Ikke offentlig avklart'},
 {party:'KrF',label:'KrF',acronym:'KrF',name:'Per Erik Gåskjenn',status:'Valgt',image:'assets/candidates/per-erik-gaskjenn.jpg'},
