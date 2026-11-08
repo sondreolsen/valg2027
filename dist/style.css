@@ -1131,3 +1131,8 @@ footer details {
   transform:scale(2);
   object-position:60% 20%
 }
+
+.county-candidate-photo img.candidate-face-zoom-silje {
+  transform:scale(1.8);
+  object-position:42% 25%
+}
