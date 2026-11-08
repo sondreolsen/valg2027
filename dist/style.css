@@ -652,7 +652,8 @@ main {
   line-height:1.25;
   letter-spacing:-.01em;
   margin:0;
-  font-weight:650
+  font-weight:650;
+  text-align:center
 }
 .candidate-copy small {
   display:none
