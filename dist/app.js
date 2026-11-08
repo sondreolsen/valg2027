@@ -27,7 +27,7 @@ const bergenCandidates=[
  {party:'V',label:'Venstre',acronym:'V',name:'Ingrid Nergaard Fjeldstad'},
  {party:'R',label:'Rødt',acronym:'R',name:'Mailiss Solheim-Åkerblom',image:'assets/candidates/mailiss-solheim-akerblom.png'},
  {party:'Sp',label:'Senterpartiet',acronym:'Sp',name:'Toppkandidat ikke valgt ennå',status:'Ikke offentlig avklart'},
- {party:'KrF',label:'KrF',acronym:'KrF',name:'Per Erik Gåskjenn',status:'Innstilt',image:'assets/candidates/per-erik-gaskjenn.jpg'},
+ {party:'KrF',label:'KrF',acronym:'KrF',name:'Per Erik Gåskjenn',status:'Valgt',image:'assets/candidates/per-erik-gaskjenn.jpg'},
  {party:'PP',label:'Pensjonistpartiet',acronym:'PP',name:'Toppkandidat ikke valgt ennå',status:'Ikke offentlig avklart'}
 ];
 
