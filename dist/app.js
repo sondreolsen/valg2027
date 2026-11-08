@@ -25,7 +25,7 @@ const bergenCandidates=[
  {party:'MDG',label:'MDG',acronym:'MDG',name:'Katrine Nødtvedt',status:'Innstilt som førstekandidat',image:'assets/candidates/katrine-nodtvedt.jpg',source:'https://bergen.mdg.no/nyhet/innstillingen-til-nominasjonsmotet-er-klar/'},
  {party:'BL',label:'Bergenslisten',acronym:'BL',name:'Toppkandidat ikke valgt ennå',status:'Ikke offentlig avklart'},
  {party:'V',label:'Venstre',acronym:'V',name:'Toppkandidat ikke valgt ennå',status:'Ikke offentlig avklart'},
- {party:'R',label:'Rødt',acronym:'R',name:'Toppkandidat ikke valgt ennå',status:'Ikke offentlig avklart'},
+ {party:'R',label:'Rødt',acronym:'R',name:'Mailiss Solheim-Åkerblom'},
  {party:'Sp',label:'Senterpartiet',acronym:'Sp',name:'Toppkandidat ikke valgt ennå',status:'Ikke offentlig avklart'},
  {party:'KrF',label:'KrF',acronym:'KrF',name:'Per Erik Gåskjenn',status:'Innstilt',image:'assets/candidates/per-erik-gaskjenn.jpg'},
  {party:'PP',label:'Pensjonistpartiet',acronym:'PP',name:'Toppkandidat ikke valgt ennå',status:'Ikke offentlig avklart'}
